@@ -6,7 +6,8 @@ const pageObject = {
     warnSize: 'default',
     disabled: false,
     plain: false,
-    loading: false
+    loading: false,
+    namex: 'alan'
   },
 
   onShareAppMessage() {
@@ -14,6 +15,12 @@ const pageObject = {
       title: 'button',
       path: 'page/component/pages/button/button'
     }
+  },
+
+  changeName() {
+    this.setData({
+      namex: 'alanxxx'
+    });
   },
 
   setDisabled() {
