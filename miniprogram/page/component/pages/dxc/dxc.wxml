@@ -1,0 +1,21 @@
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="text-box" scroll-y="true">
+        <text>AngularJs 4+
+        React
+        Docker
+        Ansible
+        Kubernetes
+        Python
+        Nodejs
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
