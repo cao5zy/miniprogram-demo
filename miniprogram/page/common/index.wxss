@@ -13,6 +13,10 @@
   width: 86rpx;
   height: 86rpx;
 }
+.alan-logo {
+  width: 150rpx;
+  height: 200rpx;
+}
 .index-desc {
   margin-top: 20rpx;
   color: #888888;
