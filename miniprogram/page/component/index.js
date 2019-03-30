@@ -12,6 +12,12 @@ Page({
   data: {
     list: [
       {
+        id: 'alan',
+        name: '简历',
+        open: false,
+        pages: ['DXC', 'HPE', 'Shinetech']
+      },
+      {
         id: 'view',
         name: '视图容器',
         open: false,
