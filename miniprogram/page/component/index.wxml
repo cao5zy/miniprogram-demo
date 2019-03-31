@@ -26,13 +26,8 @@
       <block>
         <view class="kind-list-item">
           <view class="kind-list-item-hd">
-            <view class="flex-wrp" style="height: 100px;flex-direction:column;">
-              <view class="kind-list-item-hd">
-                <block class="mobile">
-                  <view><image class="mobile" src="resources/kind/phone.png"></image></view><view><button bindtap="tel">15683637638</button></view>
-                </block>
-              </view>
-            </view>
+            <view><image class="mobile" src="resources/kind/phone.png"></image></view>
+            <view><button bindtap="tel">15683637638</button></view>
           </view>
         </view>
       </block>
