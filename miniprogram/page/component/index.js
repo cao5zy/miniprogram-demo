@@ -15,7 +15,10 @@ Page({
         id: 'alan',
         name: '简历',
         open: false,
-        pages: ['dxc', 'hpe', 'wicresoft', 'shinetech']
+        pages: [{name:'dxc', desc: 'DXC'}, 
+        {name: 'hpe', desc: 'HPE'}, 
+        {name: 'wicresoft', desc: 'Wicresoft'},
+        {name: 'shinetech', desc: 'Shinetech'}]
       }
     ],
     phone: '15683637638'
