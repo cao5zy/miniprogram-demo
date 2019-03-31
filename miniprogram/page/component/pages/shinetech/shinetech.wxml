@@ -1,0 +1,18 @@
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="flex-wrp" style="height: 200px;flex-direction:column;">
+	    <view class="flex-item">Asp.net WebForm</view>
+	    <view class="flex-item">Asp.net MVC</view>
+	    <view class="flex-item">WCF</view>
+	    <view class="flex-item">PhoneGap</view>
+	    <view class="flex-item">C++/MFC</view>
+	  </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>

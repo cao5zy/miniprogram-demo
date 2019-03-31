@@ -29,6 +29,7 @@
     "page/component/pages/dxc/dxc",
     "page/component/pages/hpe/hpe",
     "page/component/pages/wicresoft/wicresoft",
+    "page/component/pages/shinetech/shinetech",
     "page/component/pages/movable-view/movable-view",
     "page/component/pages/cover-view/cover-view",
     "page/component/pages/rich-text/rich-text",
