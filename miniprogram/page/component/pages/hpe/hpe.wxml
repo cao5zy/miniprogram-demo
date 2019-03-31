@@ -1,16 +1,12 @@
 <import src="../../../common/foot.wxml" />
+<import src="../../../common/item-list.wxml"/>
+
 
 <view class="container">
 
   <view class="page-body">
     <view class="page-section page-section-spacing">
-      <view class="flex-wrp" style="height: 200px;flex-direction:column;">
-	    <view class="flex-item">C#</view>
-	    <view class="flex-item">C++</view>
-	    <view class="flex-item">Asp.net</view>
-	    <view class="flex-item">AngularJs</view>
-	    <view class="flex-item">Typescript</view>
-	  </view>
+    	<template is="item-list" data="{{items}}" />
     </view>
   </view>
 

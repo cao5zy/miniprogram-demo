@@ -1,0 +1,10 @@
+<template name="item-list">
+	<view class="item-list-flex-wrp" style="height: 200px;flex-direction:column;">
+		<block wx:for="{{items}}">
+	        <view class="item-list-flex-row">
+	          <view class="item-list-flex-row-title"><image class="check-logo" src="../../../component/resources/pic/check.jpg"/></view>
+	          <view class="item-list-flex-row-text">{{item}}</view>
+	        </view>
+	    </block>
+    </view>
+</template>
