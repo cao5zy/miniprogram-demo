@@ -8,3 +8,16 @@
   font-size: 30rpx;
   margin: 0 auto;
 }
+.check-logo {
+	width: 80rpx;
+	height: 80rpx;
+}
+.title {
+	width: 90rpx;
+	height: 90rpx;
+}
+.text {
+	height:90rpx;
+	line-height:90rpx;
+	font-size:large;
+}
