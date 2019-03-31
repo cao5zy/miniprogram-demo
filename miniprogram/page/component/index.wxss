@@ -4,3 +4,9 @@
   display: inline;
   color: #586c94;
 }
+
+.mobile {
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 10rpx;
+}
