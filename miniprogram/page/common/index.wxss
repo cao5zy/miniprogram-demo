@@ -120,7 +120,7 @@
 .item-list-flex-row {
   display: flex;
   flex-direction: row;
-  margin-top: 60rpx;
+  margin-top: 75rpx;
 }
 .item-list-flex-row-title {
   width: 60 rpx;
@@ -130,7 +130,7 @@
   height: 60 rpx;
   line-height: 60rpx;
   font-size: medium;
-  margin-left: 20rpx;
+  margin-left: 40rpx;
 }
 .check-logo {
   width: 60rpx;
