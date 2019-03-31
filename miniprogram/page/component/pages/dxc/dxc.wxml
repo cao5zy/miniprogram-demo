@@ -1,26 +1,11 @@
 <import src="../../../common/foot.wxml" />
+<import src="../../../common/item-list.wxml"/>
 
 <view class="container">
 
   <view class="page-body">
     <view class="page-section page-section-spacing">
-      <view class="flex-wrp" style="height: 200px;flex-direction:column;">
-        <view class="flex-row">
-          <view class="flex-row-title"><image class="check-logo" src="../../resources/pic/check.jpg"/></view>
-          <view class="flex-row-text">React</view>
-        </view>
-        <view class="flex-row">
-          <view class="flex-row-title"><image class="check-logo" src="../../resources/pic/check.jpg"/></view>
-          <view class="flex-row-text">AngularJs</view>
-        </view>
-	    <view class="flex-item">AngularJs</view>
-	    <view class="flex-item">Docker</view>
-	    <view class="flex-item">Ansible</view>
-	    <view class="flex-item">Knubernetes</view>
-	    <view class="flex-item">Python</view>
-	    <view class="flex-item">Nodejs</view>
-	    <view class="flex-item">Cloud</view>
-	  </view>
+    	<template is="item-list" data="{{items}}" />
     </view>
   </view>
 
