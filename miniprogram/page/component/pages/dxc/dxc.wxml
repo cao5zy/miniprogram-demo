@@ -5,12 +5,14 @@
   <view class="page-body">
     <view class="page-section page-section-spacing">
       <view class="flex-wrp" style="height: 200px;flex-direction:column;">
-	      <view class="page-section-spacing">
-	        <view class="flex-wrp" style="flex-direction:row;">
-	          <view class="flex-item title"><image class="check-logo" src="../../resources/pic/check.jpg"/></view>
-	          <view class="flex-item text">React</view>
-	        </view>
-	      </view>
+        <view class="flex-row">
+          <view class="flex-row-title"><image class="check-logo" src="../../resources/pic/check.jpg"/></view>
+          <view class="flex-row-text">React</view>
+        </view>
+        <view class="flex-row">
+          <view class="flex-row-title"><image class="check-logo" src="../../resources/pic/check.jpg"/></view>
+          <view class="flex-row-text">AngularJs</view>
+        </view>
 	    <view class="flex-item">AngularJs</view>
 	    <view class="flex-item">Docker</view>
 	    <view class="flex-item">Ansible</view>

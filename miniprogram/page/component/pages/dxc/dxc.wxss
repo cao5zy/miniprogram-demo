@@ -8,16 +8,22 @@
   font-size: 30rpx;
   margin: 0 auto;
 }
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50rpx;
+}
+.flex-row-title {
+	width: 60 rpx;
+	height: 60 rpx;
+}
+.flex-row-text {
+	height: 60 rpx;
+	line-height: 60rpx;
+	font-size: medium;
+	margin-left: 10rpx;
+}
 .check-logo {
-	width: 80rpx;
-	height: 80rpx;
-}
-.title {
-	width: 90rpx;
-	height: 90rpx;
-}
-.text {
-	height:90rpx;
-	line-height:90rpx;
-	font-size:large;
+	width: 60rpx;
+	height: 60rpx;
 }
