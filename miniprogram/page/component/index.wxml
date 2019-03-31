@@ -14,10 +14,17 @@
           <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
             <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
               <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
-                <navigator url="pages/{{page.name}}/{{page.name}}" class="navigator">
-                  <view class="navigator-text">{{page.desc}}</view>
-                  <view class="navigator-arrow"></view>
-                </navigator>
+                <block wx:if="{{page.detail}}">
+                  <navigator url="pages/{{page.name}}/{{page.name}}" class="navigator">
+                    <view class="navigator-text">{{page.desc}}</view>
+                    <view class="navigator-arrow"></view>
+                  </navigator>
+                </block>
+                <block wx:if="{{!page.detail}}">
+                  <view class="navigator">
+                    <view class="navigator-text">{{page.desc}}</view>
+                  </view>
+                </block>
               </block>
             </view>
           </view>

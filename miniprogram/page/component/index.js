@@ -15,10 +15,23 @@ Page({
         id: 'alan',
         name: '简历',
         open: false,
-        pages: [{name:'dxc', desc: 'DXC'}, 
-        {name: 'hpe', desc: 'HPE'}, 
-        {name: 'wicresoft', desc: 'Wicresoft'},
-        {name: 'shinetech', desc: 'Shinetech'}]
+        pages: [
+        {name:'dxc', desc: 'DXC', detail: true}, 
+        {name: 'hpe', desc: 'HPE', detail: true}, 
+        {name: 'wicresoft', desc: 'Wicresoft', detail: true},
+        {name: 'shinetech', desc: 'Shinetech', detail: true}]
+      },
+      {
+        id: 'alan1',
+        name: '项目经验',
+        open: false,
+        pages: [
+        {name:'none', desc: '微服务架构平台', detail: false}, 
+        {name: 'none', desc: 'HPFS', detail: false}, 
+        {name: 'none', desc: '酒店管理系统', detail: false},
+        {name: 'none', desc: '医院管理系统', detail: false},
+        {name: 'none', desc: '长安福特工作流', detail: false},
+        {name: 'none', desc: 'CIIC CRM', detail: false}]
       }
     ],
     phone: '15683637638'
