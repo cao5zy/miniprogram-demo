@@ -15,7 +15,7 @@ Page({
         id: 'alan',
         name: '简历',
         open: false,
-        pages: ['dxc', 'hpe', 'shinetech']
+        pages: ['dxc', 'hpe', 'wicresoft', 'shinetech']
       },
       {
         id: 'view',

@@ -1,0 +1,21 @@
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="flex-wrp" style="height: 200px;flex-direction:column;">
+	    <view class="flex-item">Asp.net Web Form</view>
+	    <view class="flex-item">Asp.net MVC</view>
+	    <view class="flex-item">Knockout.js</view>
+	    <view class="flex-item">C# Windows Form</view>
+	    <view class="flex-item">并行数据处</view>
+	    <view class="flex-item">UML</view>
+	    <view class="flex-item">Oracle</view>
+	    <view class="flex-item">MsSqlserver</view>
+	  </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
