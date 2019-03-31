@@ -27,7 +27,7 @@
         <view class="kind-list-item">
           <view class="kind-list-item-hd">
             <view><image class="mobile" src="resources/kind/phone.png"></image></view>
-            <view><button bindtap="tel">15683637638</button></view>
+            <view><button bindtap="makeCall">{{phone}}</button></view>
           </view>
         </view>
       </block>

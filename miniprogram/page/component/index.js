@@ -4,7 +4,7 @@ Page({
   },
   onShareAppMessage() {
     return {
-      title: '小程序官方组件展示',
+      title: "Alan's CV",
       path: 'page/component/index'
     }
   },
@@ -17,7 +17,8 @@ Page({
         open: false,
         pages: ['dxc', 'hpe', 'wicresoft', 'shinetech']
       }
-    ]
+    ],
+    phone: '15683637638'
   },
 
   kindToggle(e) {
@@ -34,5 +35,11 @@ Page({
       list
     })
     wx.reportAnalytics('click_view_programmatically', {})
+  },
+
+  makeCall() {
+    wx.makePhoneCall({
+      phoneNumber: this.data.phone
+    });
   }
 })
